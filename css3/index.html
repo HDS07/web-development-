@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img{
+            border: solid black 2px;
+            margin-top: 10px;
+            margin-left: 5px;
+        }
+        #image3{
+            /* position: relative;
+            top: 100px;
+            left: 70px; */
+
+            /* position:absolute;
+            top: 100px; */
+
+            position: sticky;
+            top: 100px;
+        }
+        .container{
+            position: relative;
+            border: solid blue 2px;
+            height: 5000px;
+        }
+        #image4{
+            position: fixed;
+            
+        }
+        .container2{
+            height: 5000px;
+            border: solid purple 4px;
+            margin-top: 3px;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="image2.jpg" alt="image1" id="image2" width="300px" height="300px">
+        <img src="image3.jpg" alt="image3" id="image3" width="300px" height="300px">
+        <img src="image4.jpg" alt="image4" id="image4" width="300px" height="300px">
+    </div>
+    <div class="container2">
+
+    </div>
+</body>
+</html>
