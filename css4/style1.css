@@ -1,0 +1,44 @@
+.container{
+    border: solid green 2px;
+    overflow: auto;
+}
+#item1{
+    background-color: aquamarine;
+    width: 400px;
+    height:200px;
+    border: solid black 1px;
+    margin-top: 2px;
+    margin-left: 2px;
+    float: left;
+
+}
+#item2{
+    background-color: aquamarine;
+    width: 400px;
+    height: 200px;
+    border: solid black 1px;
+    margin-top: 2px;
+    margin-left: 2px;
+    float: left;
+
+}
+#item3{
+    background-color: aquamarine;
+    width: 400px;
+    height: 200px;
+    border: solid black 1px;
+    margin-top: 2px;
+    margin-left: 2px;
+    float: left;
+
+}
+#item4{
+    background-color: aquamarine;
+    width: 400px;
+    height: 200px;
+    border: solid black 1px;
+    margin-top: 2px;
+    margin-left: 2px;
+    float: left;
+
+}

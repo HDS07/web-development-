@@ -1,0 +1,32 @@
+/* img{
+    width: 250px;
+    border: solid black 2px;
+    margin:2px;
+    float: left;
+
+} */
+#image3{
+    width: 250px;
+    border: solid yellow 2px;
+    padding-left: 6px;
+    padding-top: 6px;
+    margin:4px;
+    float: left;
+
+}
+#image2{
+    width: 250px;
+    border: solid yellow 2px;
+    padding-left: 6px;
+    padding-top: 6px;
+    margin:4px;
+    float: right;
+    /* clear: right; */
+
+}
+
+.container{
+    border: solid black 4px;
+    height: 1000px;
+    font-family: Arial, Helvetica, sans-serif;
+}
