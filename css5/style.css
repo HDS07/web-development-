@@ -1,0 +1,23 @@
+.box{
+    background-color: aquamarine;
+    border: solid black 3px;
+    display: flex;
+}
+#boxes{
+    width: 200px;
+    height: 200px;
+    border: solid brown 1px;
+    background-color: yellow;
+    margin-top: 2px;
+    margin-left: 2px;
+}
+@media (min-width:640px) {
+    .box{
+        flex-direction:row;
+    }
+}
+@media (max-width:640px) {
+    .box{
+        flex-direction: column;
+    }
+}
