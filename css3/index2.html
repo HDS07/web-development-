@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sticky footer</title>
+</head>
+<style>
+    .container{
+        border: solid 2px purple;
+        width: 80vw;
+        margin: auto;
+    
+        /* position: relative; */
+    }
+    .box{
+        width: 70vw;
+        height: 300px;
+        border: solid black 1px;
+        margin: auto;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .box1{
+        background-color: rgb(33, 33, 238);
+        /* position: fixed;
+        bottom: 0; */
+        
+    }
+    .box2{
+        background-color: greenyellow;
+        /* position: relative;
+        bottom: 211px; */
+        /* position: absolute;
+        bottom: 100px; */              
+    }
+    .box3{
+        background-color: rgb(67, 168, 215);
+    }
+    .box4{
+        background-color: rgb(255, 47, 130);
+        position: sticky;
+        bottom: 0;
+        
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="box box1">HEADER!!</div>
+        <div class="box box2">CONTENT!!</div>
+        <div class="box box3">CONTENT!!</div>
+        <div class="box box4">FOOTER!!</div>
+    </div>
+</body>
+</html>
