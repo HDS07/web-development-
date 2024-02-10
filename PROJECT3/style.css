@@ -1,5 +1,10 @@
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 .container img{
-    width: 100px;
+    width: 150px;
     height: 50px;
 }
 .box ul{
@@ -9,8 +14,21 @@
 .box ul li{
     list-style: none;
 }
-nav{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+main{
+    width: 50vw;
+    height:auto;
+    margin: auto;
+}
+.content{
+    text-align: center;
+}
+#imp{
+    padding-top: 20px;
+    font-size: 30px;
+}
+#imp2{
+    font-size: 20px;
+} 
+button{
+    border-radius: 2px;
 }
