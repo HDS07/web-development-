@@ -1,5 +1,13 @@
 *{
-    margin: auto;
+    margin: 0;
+    padding: 0;
+}
+.mainbox{
+    width: 100vw;
+    box-sizing: border-box;
+    overflow-x:auto;
+    overflow-y: auto;
+    border: 1px solid black;
 }
 nav{
     width: 100%;
