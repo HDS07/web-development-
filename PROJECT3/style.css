@@ -3,6 +3,8 @@
     padding: 0;
 }
 .mainbox{
+    display: flex;
+    flex-direction: column;
     width: 100vw;
     box-sizing: border-box;
     overflow-x:auto;
@@ -233,6 +235,12 @@ form button{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     gap: 50px;
     margin-top: 40px;
+}
+@media screen and (max-width:925px){
+    .firstpart{
+        display:flex;
+        gap: 10px;
+    }
 }
 .firstpartbox4{
     text-align: center;
