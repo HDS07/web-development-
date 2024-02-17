@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: white;
+    font-family:sans-serif;
+}
+.nav_bar{
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 150px;
+    z-index: 15;
+    width: 100vw;
+}
+.navlogo img{
+    width: 160px;
+    height: 47px;
+}
+.items_container{
+    display: flex;
+    gap: 20px;
+}
+.item1{
+    border: 1px solid rgb(137, 129, 129);
+    background-color: rgb(29, 29, 29);
+    border-radius: 4px;
+    height: 35px;
+    width: 130px;
+    padding: 4px;
+}
+.languageselector{
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 17px;
+}
+.languageicon{
+    padding-left: 4px;
+}
+.signbutton{
+    height: 35px;
+    width: 90px;
+    color: white;
+    border: none;
+    background-color: red;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 15px;
+}
+.backgroundimage{
+    width: 100vw;
+    height: 100vh; 
+}
+.bgimage{
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+}
+.overlaybox{
+    width: 100vw;
+    height: 100vh;
+    position:absolute;
+    inset: 0;
+    background-color: black;
+    opacity: 0.65;
+}
+/* .bgimagepart{
+    height: 100vh;
+} */
+@media screen and (max-width: 740px) {
+    .nav_bar{
+        padding: 25px 50px;
+    }
+}
+@media screen and (max-width:505px) {
+    .nav_bar{
+        flex-direction: column;
+        padding: 25px 50px;
+        align-items: center;
+        gap:10px
+    }
+    .items_container{
+        flex-direction: column;
+        align-items: center;
+        gap:10px
+    }
+}    
+.headingcontent{
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+    position: absolute;
+    top: 40%;
+    left: 15%;
+    right: 15%;
+    text-align: center;
+}
+.headingtext{
+    font-size: 50px;
+}
+#para1{
+    font-size: 26px;
+}
+#para2{
+    font-size: 20px;
+}
+.headingbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+}
+#emailaddress{
+    border: 1px solid rgb(137, 129, 129);
+    background-color: transparent;
+    color: white;
+    border-radius: 4px;
+    width: 300px;
+    height: 50px;
+}
+#startbutton{
+    width: 170px;
+    height: 50px;
+    font-size: 23px;
+    font-weight: 600;
+    background-color: red;
+    color: white;
+    border-radius: 4px;
+    border: none;
+}
+@media screen and (max-width: 600px) {
+    .headingbox{
+        flex-direction: column;
+        align-items: center;
+    }
+    .headingtext{
+        font-size: 30px;
+    }
+    #emailaddress{
+        width: 250px;
+        height: 40px;
+    }
+}
+.seperation{
+    width: 100vw;
+    height: 7px;
+    background-color: grey;
+}
