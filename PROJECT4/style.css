@@ -215,37 +215,87 @@ body {
     right: 80px;
 }
 
-.subcontentbox1 {
+.subcontentbox11 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 15px;
 }
 
-.subcontentbox1 p {
+.subcontentbox11 p {
     font-size: 24px;
 }
 
-.subcontentbox1 h1 {
+.subcontentbox11 h1 {
     font-size: 45px;
     font-weight: 800;
 }
 
-.subcontentbox2 {
+.subcontentbox12 {
     position: relative;
 }
 
-.subcontentbox2 img {
+.subcontentbox12 img {
     width: 510px;
     height: 400px;
     position: relative;
     z-index: 10;
 }
 
-.subcontentbox2 video {
+.subcontentbox12 video {
     position: absolute;
     right: 71px;
     bottom: -26px;
+}
+
+.content2 {
+    width: 100vw;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contentbox2 {
+    display: flex;
+    position: absolute;
+    left: 80px;
+    right: 80px;
+}
+
+.subcontentbox21 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+}
+
+.subcontentbox21 p {
+    font-size: 24px;
+}
+
+.subcontentbox21 h1 {
+    font-size: 45px;
+    font-weight: 800;
+}
+
+.subcontentbox22 {
+    position: relative;
+}
+
+.subcontentbox22 img {
+    width: 510px;
+    height: 400px;
+    position: relative;
+    z-index: 10;
+}
+
+.subcontentbox22 video {
+    position: absolute;
+    right: 94px;
+    bottom: 180px;
+    height: 195px;
+    width: 327px;
 }
 
 @media screen and (max-width: 1040px) {
@@ -255,61 +305,124 @@ body {
         text-align: center;
     }
 
-    .subcontentbox1 p {
+    .subcontentbox11 p {
         font-size: 18px;
     }
 
-    .subcontentbox1 h1 {
+    .subcontentbox11 h1 {
+        font-size: 40px;
+        font-weight: 800;
+    }
+
+    .contentbox2 {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .subcontentbox21 p {
+        font-size: 18px;
+    }
+
+    .subcontentbox21 h1 {
         font-size: 40px;
         font-weight: 800;
     }
 }
 
+
 @media screen and (max-width: 610px) {
-    .subcontentbox1 p {
+    .subcontentbox11 p {
         font-size: 15px;
     }
 
-    .subcontentbox1 h1 {
+    .subcontentbox11 h1 {
         font-size: 35px;
         font-weight: 700;
     }
 
-    .subcontentbox2 img {
+    .subcontentbox12 img {
         width: 430px;
         height: 300px;
         position: relative;
     }
 
-    .subcontentbox2 video {
+    .subcontentbox12 video {
         width: 313px;
         height: 235px;
         position: absolute;
         right: 60px;
         top: 27px;
     }
+
+    .subcontentbox21 p {
+        font-size: 15px;
+    }
+
+    .subcontentbox21 h1 {
+        font-size: 35px;
+        font-weight: 700;
+    }
+
+    .subcontentbox22 img {
+        width: 430px;
+        height: 300px;
+        position: relative;
+    }
+
+    .subcontentbox22 video {
+        width: 263px;
+        height: 209px;
+        position: absolute;
+        right: 86px;
+        top: -5px;
+    }
 }
 
 @media screen and (max-width: 460px) {
-    .subcontentbox1 p {
+    .subcontentbox11 p {
         font-size: 12px;
     }
 
-    .subcontentbox1 h1 {
+    .subcontentbox11 h1 {
         font-size: 30px;
         font-weight: 700;
     }
 
-    .subcontentbox2 img {
+    .subcontentbox12 img {
         width: 300px;
         height: 200px;
         position: relative;
     }
-    .subcontentbox2 video{
+
+    .subcontentbox12 video {
         width: 220px;
         height: 216px;
         position: absolute;
         right: 40px;
         top: -15px;
+    }
+
+    .subcontentbox21 p {
+        font-size: 12px;
+    }
+
+    .subcontentbox21 h1 {
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+    .subcontentbox22 img {
+        width: 300px;
+        height: 200px;
+        position: relative;
+    }
+
+    .subcontentbox22 video {
+        width: 190px;
+        height: 219px;
+        position: absolute;
+        right: 54px;
+        top: -42px;
     }
 }
