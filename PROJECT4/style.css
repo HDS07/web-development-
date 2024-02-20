@@ -297,6 +297,47 @@ body {
     height: 195px;
     width: 327px;
 }
+.content3 {
+    width: 100vw;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contentbox3 {
+    display: flex;
+    position: absolute;
+    left: 80px;
+    right: 80px;
+}
+
+.subcontentbox32 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+}
+
+.subcontentbox32 p {
+    font-size: 24px;
+}
+
+.subcontentbox32 h1 {
+    font-size: 45px;
+    font-weight: 800;
+}
+
+.subcontentbox31 {
+    position: relative;
+}
+
+.subcontentbox31 img {
+    width: 510px;
+    height: 400px;
+    position: relative;
+    z-index: 10;
+}
 
 @media screen and (max-width: 1040px) {
     .contentbox1 {
