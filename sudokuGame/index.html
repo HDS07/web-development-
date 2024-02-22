@@ -10,14 +10,13 @@
 <body>
     <nav class="app-bar">
         <button onclick="HamburgerButtonClick();" class="button bar-button hamburger-button">
-          <span class="material-icons">menu</span>
+          <span class="material-icons">MENU</span>
         </button>
-        <div class="bar-font title">Sudoku</div>
+        <div class="bar-font title">SEPM PROJECT</div>
         <div id="moreoption-sec" class="more-option-div more-button">
           <button onclick="moreOptionButtonClick()" class="button bar-button">
-            <span class="material-icons">more_vert</span>
+            <span class="material-icons">MORE OPTION</span>
           </button>
-          <!-- it is important to put these styles in here because if I do not do that it will not work in javaScript-->
           <div id="more-option-list" style="visibility: hidden;max-height: 10px;max-width: 40px;min-width: 40px;" class="more-option-list">
             <button onclick="hintButtonClick()" ripple-color="#003c8f" class="button nav-item vertical-adjust">Hint</button>
             <button onclick="restartButtonClick()" ripple-color="#003c8f" class="button nav-item vertical-adjust">Restart</button>
@@ -26,19 +25,17 @@
         </div>
       
         <button id="pause-btn" onclick="pauseGameButtonClick()" class="button bar-button more-button">
-          <span id="pause-icon" class="material-icons">pause</span>
+          <span id="pause-icon" ></span>
           <span id="pause-text">Pause</span>
         </button>
         <button id="check-btn" onclick="checkButtonClick()" class="button bar-button more-button">
-          <span class="material-icons">done_all</span>
-          <span>Check</span>
+          <span class="material-icons">Done</span>
+          <span></span>
         </button>
         <button id="isunique-btn" style="display: none;" onclick="isUniqueButtonClick();" class="button bar-button more-button">
-          <span class="material-icons">call_split</span>
-          <span>Is unique</span>
+          <span>Is unique??</span>
         </button>
         <button id="solve-btn" style="display: none;" onclick="solveButtonClick()" class="button bar-button more-button">
-          <span class="material-icons">border_color</span>
           <span>Solve</span>
         </button>
       
@@ -47,37 +44,24 @@
       <div id="hamburger-menu" class="hamburger-menu">
         <nav id="nav-menu" class="nav-menu">
           <div class="nav-head">
-            <div class="nav-head-img">
-              <img src="https://image.ibb.co/jmuOKn/icon.jpg" art="" />
-            </div>
-            <div class="nav-head-title">Sudoku</div>
+            <div class="nav-head-title">SUDOKU GAME</div>
           </div>
           <ul class="nav-items">
             <button onclick="showDialogClick('dialog');" ripple-color="#003c8f" class="button nav-item vertical-adjust">
               <div>
-                <span class="material-icons">add</span>
                 <span style="left:12px;">New game</span>
               </div>
             </button>
             <button onclick="sudokuSolverMenuClick();" ripple-color="#003c8f" class="button nav-item vertical-adjust">
               <div>
-                <span class="material-icons">edit</span>
                 <span style="left:12px;">Sudoku Solver</span>
               </div>
             </button>
-            <button onclick="showDialogClick('about-dialog');" ripple-color="#003c8f" class="button nav-item vertical-adjust">
+            <button ripple-color="#003c8f" class="button nav-item vertical-adjust">
               <div>
-                <span class="material-icons">star</span>
-                <span style="left:12px;">About</span>
+                <span style="left:12px;">Multiplayer</span>
               </div>
             </button>
-            <div class="bar-footer">
-              <ul>
-                <a href="#" class="bar-footer-link">Site feedback</a>
-                <a href="#" class="bar-footer-link">Privacy</a>
-                <a href="#" class="bar-footer-link">Terms</a>
-              </ul>
-            </div>
           </ul>
         </nav>
         <div class="nav-menu-blank" onclick="hideHamburgerClick()">
@@ -87,7 +71,7 @@
       
       <div class="floating">
         <button onclick="showDialogClick('dialog');" class="button floating-btn vertical-adjust">
-          <span class="material-icons">add</span>
+          <span class="material-icons">New Game</span>
         </button>
       </div>
       
@@ -432,23 +416,20 @@
           <ul class="game-status">
             <li>
               <div class="vertical-adjust">
-                <span class="material-icons">timer</span>
-                <span id="timer-label">Time</span>
+                <span id="timer-label"><b>Time</b></span>
               </div>
               <div id="timer" class="timer">00:00</div>
             </li>
       
             <li>
               <div class="vertical-adjust">
-                <span class="material-icons">network_check</span>
-                <span id="game-difficulty-label">Game difficulty</span>
+                <span id="game-difficulty-label"><b>Game Difficulty</b></span>
               </div>
               <div id="game-difficulty" class="timer">undefined</div>
             </li>
             <li>
               <div class="vertical-adjust">
-                <span class="material-icons">grid_on</span>
-                <span>Remaining numbers</span>
+                <span><b>Remaining Numbers </b></span>
               </div>
               <div class="remain-table">
                 <div class="remain-column">
