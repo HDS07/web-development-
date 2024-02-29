@@ -1,3 +1,4 @@
+console.log("if else condition!!")
 console.log("run in terminal");
 
 let x=10;
