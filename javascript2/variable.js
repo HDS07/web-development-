@@ -31,11 +31,6 @@ let xyz=undefined;
 let pqr=null;
 console.log(typeof x,typeof y,typeof z,typeof xyz,typeof pqr);
 
-let o={
-    "name":"harsh",
-    age:20
-}
-console.log(o);
-o.salary=100000;
-console.log(o);
+
+
  
