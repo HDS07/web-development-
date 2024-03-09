@@ -11,3 +11,7 @@ for (const key in obj) {
         console.log(element);    
     }
 }
+
+for (const c of "AIML") {
+    console.log(c);
+}
