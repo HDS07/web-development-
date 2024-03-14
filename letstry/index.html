@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div ng-app="Myapp", ng-controller="DateController">
+        <h1>Date: {{yourDate|date:'yyyy/MM/dd/hh:mm:ss'}}</h1>
+    </div>
+    <script>
+        var app=angular.module("Myapp",[]);
+        app.controller('DateController',function($scope){
+            $scope.yourDate = new Date();
+        });
+
+    </script>
+
+</body>
+</html>
